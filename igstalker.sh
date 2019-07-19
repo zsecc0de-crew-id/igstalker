@@ -44,7 +44,7 @@ grep -Po '(?<=div).*?(?>")' | grep "Followers" | cut -d ">" -f2 | grep -o ".*<" 
 ngcurl=$(curl -Gs "https://insta-stalkerr.com/profile/${you}/" -L | 
 grep -Po '(?<=div).*?(?>")' | grep "Following" | cut -d ">" -f2 | grep -o ".*<" | tr -d "<")
 ngcurls=$(curl -Gs "https://insta-stalkerr.com/profile/${you}/" -L | 
-grep -Po '(?<=div).*?(?>")' | grep "Following" | cut -d ">" -f2 | grep -o ".*<" | tr -d "<")
+grep -Po '(?<=div).*?(?>")' | grep "Posts" | cut -d ">" -f2 | grep -o ".*<" | tr -d "<")
 printf "[+] Followers: $ngcur\n"
 printf "[+] Following: $ngcurl\n"
 printf "[+] Posts: $ngcurls\n"
