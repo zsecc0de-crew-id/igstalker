@@ -24,7 +24,7 @@ ngcari=$(curl -Gs "https://insta-stalkerr.com/search/?q=$az" --location-trusted 
 -H 'authority: insta-stalker.com' \
 -H 'upgrade-insecure-requests: 1' \
 -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86' | 
-grep -Po '(?<=alt=").*?(?=")' | head | grep -Po "@(.*)" | grep -n ""
+grep -Po '(?<=alt=").*?(?=")' | head | grep -Po "@(.*)"
 )
 #printf "$ngcari \n" >> kamu
 printf "$ngcari \n"
@@ -53,5 +53,5 @@ ngbanner
 search;
 echo -e "-----------------------------"
 printf "found : $ngjuml\n";
-echo -en "[*] cari :"; read you
+echo -en "[*] username :"; read you
 getdata $you
