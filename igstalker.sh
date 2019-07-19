@@ -2,6 +2,7 @@
 # @plase not recode script me ;) *\\
 # @toolsname  : igstalker
 # @create on  : 10-04-2019
+# @last update : 20/07/2019
 # @powered by : zsecc0de-crew.id *\\
 #                        ____     _                                         _
 # _______  ___  ___ ___ / _ \  __| | ___        ___ _ __ _____      _(_) __| |
@@ -11,6 +12,7 @@
 ngbanner() {
 echo -e "
 \t[-] INSTAGRAM STALKER [-]
+   c0ded by widhi
 "
 }
 ngclear() {
